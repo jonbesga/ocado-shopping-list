@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button id="export">Export Shopping List</button>
-    <button id="import">Import Saved Shopping List to Trolley</button>
-    <ul id="saved-lists"></ul>
+   <div class="container">
+        <ul>
+            <li>
+                <a id="export" href="#">
+                <img src="icon-01.png" alt="copy list">
+                <span>Save shopping list</span>
+                </a>
+            </li>
+            <li>
+                <a id="import" href="#">
+                <img src="icon-02.png" alt="add list">
+                <span>Add list to trolley</span>
+                </a>
+            </li>
+        </ul>
+        <hr>
+        <ul>
+            <li>   
+                <a href="#"> 
+                <img src="icon-03.png" alt="download list" class="trolley-icon">
+                <span>Download shopping list</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <img src="icon-04.png" alt="upload list" class="trolley-icon">
+                <span>Upload from file</span>
+                </a>
+            </li>
+        </ul>
+    </div>
     <script src="popup.js"></script>
 </body>
 </html>

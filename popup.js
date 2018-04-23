@@ -18,16 +18,12 @@ function add_to_basket(sku, quantity) {
 
 let exportBtn = document.getElementById('export');
 let importBtn = document.getElementById('import');
-let savedList = document.getElementById('saved-lists');
 
 exportBtn.onclick = function(element){
+    console.log('click!')
     chrome.tabs.getSelected(null, function (tab) {
         shoppingListId = tab.url.split('https://www.ocado.com/webshop/shoppingLists/')[1].split('/display.go')[0]
         export_shopping_list(shoppingListId, function(response){
-            let li = document.createElement('li');
-            li.innerText = shoppingListId
-            savedList.appendChild(li);
-            
             let values = JSON.stringify(response);
             localStorage.setItem('ocado_shopping_list', values);
             alert('Shopping list copied! Now go to other Ocado account and select import')

@@ -2,12 +2,12 @@
     "manifest_version": 2,
     "name": "Share shopping lists from Ocado",
     "description": "Share shopping lists between Ocado accounts",
-    "version": "0.2",
+    "version": "0.5",
     "author": "Jon Besga",
     "icons": {
-        "16": "ocado-logo.png",
-        "48": "ocado-logo.png",
-        "128": "ocado-logo.png"
+        "16": "ocado-16.png",
+        "48": "ocado-48.png",
+        "128": "ocado-128.png"
     },
     "permissions": [
         "storage", "declarativeContent", "activeTab"
