@@ -32,6 +32,8 @@ li a {
 li img {
     padding: 10px;
     align-content: left; 
+    height: 30px;
+    width: 30px;
 }
 li span {
     align-self: center;
