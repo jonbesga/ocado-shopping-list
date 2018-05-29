@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Share shopping lists from Ocado",
+    "name": "Ocado Shopping Lists - Share shopping lists with friends",
     "description": "Share shopping lists with friends and between Ocado accounts",
     "version": "1.0",
     "author": "Jon Besga",
